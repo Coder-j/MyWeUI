@@ -12,24 +12,27 @@
   width: 24px;
   height: 24px;
   background-color: red;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 
 /* 父容器 */
+
 /* 位置排列  */
 
 /* 居左 */
+
 .flex-start {
   justify-content: flex-start;
-
 }
 
 /* 居中 */
+
 .flex-center {
   justify-content: center;
 }
 
 /* 居右 */
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -43,35 +46,41 @@
 }
 
 /* 沿着主轴均匀分布，首尾两端的子容器和父容器相切 */
+
 .flex-between {
   justify-content: space-between;
 }
-
 
 /* 竖向 */
 
 /* 位置排列 */
 
 /* 起始端对齐 */
+
 .flex-start-v {
-   align-items: flex-start;
+  align-items: flex-start;
 }
 
 /* 居中对齐 */
+
 .flex-center-v {
   align-items: center;
 }
+
 /* 末尾端对齐 */
+
 .flex-end-v {
   align-items: flex-end;
 }
 
 /* 基线对齐，baseline默认指首行文字，所有子容器都向基线对齐 */
+
 .flex-baseline {
   align-items: baseline;
 }
 
 /* 子容器沿交叉轴方向的尺寸拉升至与父容器一致 */
+
 .felx-stretch {
   align-items: stretch;
 }
@@ -81,7 +90,6 @@
 /* 单独设置子容器如何沿交叉轴排列，algn-self （设置某一个子容器）*/
 
 /* 确定属性决定主轴的方向，交叉轴的方向由主轴决定(逆时针方向选中90度，右手定理），flex-direction */
-
 
 /* 换行方式, flex-wrap */
 
@@ -94,3 +102,41 @@
 /* 子容器弹性收缩的比例，flex-shrink （收缩方式）*/
 
 /* 改变指容器的排列顺序，数值越小越靠前 ， flex-order */
+
+/* card  */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  background-color: #333;
+  margin-top: 20px;
+}
+
+.container .item {
+  width: 100%;
+  height: 300rpx;
+  background-color: red;
+  margin: 10px 10px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.content-item {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  margin: 10px 10px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

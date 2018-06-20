@@ -42,3 +42,16 @@
   <view class="item"></view>
   <view class="item"></view>
 </view>
+
+
+<view class="container">
+    <view class="item content1">
+      <view class="content-item"></view>
+      <view class="content-item"></view>
+    </view>
+    <view class="item content2">
+         <view class="content-item"></view>
+    </view>
+    <view class="item"></view>
+    <view class="item"></view>
+</view> 
