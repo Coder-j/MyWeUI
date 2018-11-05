@@ -140,3 +140,7 @@
   justify-content: center;
   align-items: center;
 }
+
+/* 小程序总结 */
+
+/* 父类总是被子元素占满 */
